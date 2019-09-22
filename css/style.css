@@ -30,25 +30,27 @@ h1 {
 }
 
 .score {
+    overflow: hidden;
     width: 40%;
-    margin: 30px auto;
+    /* height: 10vh; */
+    margin: 0px auto;
+    text-align: center;
     font-size: 3em;
     border: 2px goldenrod solid;
     border-radius: 10px;
 
 }
 
-p {
-    /* width: 100%; */
-
+span {
+    line-height: 10vh;
 }
 
-p span {
+/* p span {
     vertical-align: 5px;
-}
+}  */
 
-p span.colon {
-    vertical-align: 10px;
+span.colon {
+    vertical-align: 5px;
 }
 
 
@@ -87,7 +89,7 @@ p span.colon {
 .start {
     display: block;
     padding: 15px;
-    margin: 30px auto;
+    margin: 0 auto 10px auto;
     font-family: 'Concert One', 'Roboto', Arial, sans-serif;
     font-size: 1.3em;
     text-transform: uppercase;

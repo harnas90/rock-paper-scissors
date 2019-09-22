@@ -47,7 +47,7 @@ win = () => {
         ++score;
         playerScore.textContent = score;
         aiScore.textContent = scoreAi;
-        result.textContent = `${game.playerHand} beats ${game.aiHand}! You won a match!`;
+        result.textContent = `${game.playerHand} beats ${game.aiHand}! You won the match!`;
     }
 }
 
@@ -61,7 +61,7 @@ lose = () => {
         ++scoreAi;
         playerScore.textContent = score;
         aiScore.textContent = scoreAi;
-        result.textContent = `${game.playerHand} loses to ${game.aiHand}! You lost a match!`;
+        result.textContent = `${game.playerHand} loses to ${game.aiHand}! You lost the match!`;
     }
 }
 
