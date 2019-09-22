@@ -36,8 +36,8 @@ h1 {
     margin: 0px auto;
     text-align: center;
     font-size: 3em;
-    border: 2px goldenrod solid;
-    border-radius: 10px;
+    /* border: 2px goldenrod solid;
+    border-radius: 10px; */
 
 }
 
@@ -88,6 +88,7 @@ span.colon {
 
 .start {
     display: block;
+    width: 30%;
     padding: 15px;
     margin: 0 auto 10px auto;
     font-family: 'Concert One', 'Roboto', Arial, sans-serif;
