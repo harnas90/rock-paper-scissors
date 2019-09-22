@@ -1,0 +1,161 @@
+/* font-family: 'Concert One', cursive;
+font-family: 'Roboto', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1440px;
+    height: 100vh;
+    margin: 0 auto;
+    font-family: 'Concert One', 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+    color: goldenrod;
+    text-align: center;
+    overflow: hidden;
+}
+
+h1 {
+    margin: 10px 10px 0 10px;
+}
+
+.score {
+    width: 40%;
+    margin: 30px auto;
+    font-size: 3em;
+    border: 2px goldenrod solid;
+    border-radius: 10px;
+
+}
+
+p {
+    /* width: 100%; */
+
+}
+
+p span {
+    vertical-align: 5px;
+}
+
+p span.colon {
+    vertical-align: 10px;
+}
+
+
+.choices {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 2.8em;
+}
+
+.image {
+    flex-basis: 30%;
+    padding: 20px;
+    /* margin: 0 5px; */
+    text-align: center;
+    border: 2px goldenrod solid;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.image:hover {
+    cursor: pointer;
+    background-color: goldenrod;
+    color: black;
+
+}
+
+.result {
+    margin: 10px 20px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.start {
+    display: block;
+    padding: 10px;
+    margin: 30px auto;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: goldenrod;
+    background-color: transparent;
+    border: 2px goldenrod solid;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.start:hover {
+    cursor: pointer;
+    background-color: goldenrod;
+    color: black;
+
+}
+
+@media (orientation: portrait) and (min-width: 359px) {
+    .container {
+        font-size: 18px;
+
+    }
+}
+
+@media (orientation: portrait) and (min-width: 399px) {
+    .container {
+        font-size: 21px;
+
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 768px) {
+    .container {
+        font-size: 40px;
+
+    }
+
+}
+
+@media (orientation: portrait) and (min-width: 1024px) {
+    .container {
+        font-size: 50px;
+
+    }
+
+
+}
+
+@media (orientation: landscape) and (min-width: 900px) {
+    .container {
+        font-size: 35px;
+
+    }
+
+    .choices {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .score {
+        width: 20%;
+
+
+    }
+
+
+
+}
